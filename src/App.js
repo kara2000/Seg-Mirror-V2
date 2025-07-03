@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Draggable from 'react-draggable';
 import images from './images';
+import ImageUploadManager from './components/ImageUploadManager';
 
 function App() {
   const windowId = useMemo(() => Math.random(), [])
